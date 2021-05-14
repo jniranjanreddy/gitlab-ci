@@ -1,11 +1,14 @@
 Below are gitlab-ci examples
 ```
+//Single Stage: 
+
 test_variable:
   stage: test
   script:
     - echo "$CI_JOB_STAGE"
 ```
 ```
+#Double stage or multistage
 stages: 
   - build
   - test
