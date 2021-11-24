@@ -9,7 +9,7 @@ There are 5 default stages:-
  2. build
  3. test
  4. deploy
- 5 .posr
+ 5 .post
 
 ```
 ```
