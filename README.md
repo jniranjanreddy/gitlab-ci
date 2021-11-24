@@ -1,4 +1,31 @@
 Below are gitlab-ci examples
+
+```
+Stage - Keyword is used in a job to define which stage that job is part of.
+Stages - Define the order of execution of jobs or group of jobs.
+
+There are 5 default stages:-
+ 1. .pre
+ 2. build
+ 3. test
+ 4. deploy
+ 5 .posr
+
+```
+```
+build-job:
+  script: 
+    - echo "This is from Build Job"
+    
+test-job:
+  script: 
+    - echo "This is from test-Job"
+    
+deploy-job:
+  script: 
+    - echo "This is from deploy-Job"
+```
+
 ```
 //Single Stage: 
 
