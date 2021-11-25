@@ -1,5 +1,0 @@
-windows-info: 
-  tags: 
-    - windows
-  script: 
-    - systeminfo
