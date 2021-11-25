@@ -1,0 +1,13 @@
+stages:
+    - build_stage
+    - deploy_stage
+
+build:
+    stage: build_stage
+    script:
+        - df -h
+deploy:
+    stage: deploy_stage
+    script:
+        - mkdir /tmp/test01
+        - mkdir /tmp/test01 || true &&  touch /tmp/test01/file01 || true
