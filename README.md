@@ -1,6 +1,14 @@
 Below are gitlab-ci examples
 
 ```
+How to install gitlab.
+ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+ yum -y install gitlab-ce
+
+
+```
+
+```
 Stage - Keyword is used in a job to define which stage that job is part of.
 Stages - Define the order of execution of jobs or group of jobs.
 
